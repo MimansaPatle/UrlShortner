@@ -6,7 +6,8 @@ export default async function Page({ params }) {
   const db = client.db("url-shortner");
   const collection = db.collection("url");
 
-  const doc = await collection.findOne({ shorturl: params.shorturl });
+  const { shorturl } = await params;
+  const doc = await collection.findOne({ shorturl });
 
   if (doc) {
     redirect(doc.url);
