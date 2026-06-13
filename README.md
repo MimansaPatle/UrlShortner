@@ -1,36 +1,156 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔗 URL Shortener
 
-## Getting Started
+A modern full-stack URL shortening application built with **Next.js**, **MongoDB**, and **Tailwind CSS** that allows users to convert long URLs into short, easy-to-share links with custom aliases.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+* 🔗 Shorten long URLs instantly
+* ✏️ Create custom short aliases
+* ⚡ Fast redirection to original URLs
+* 📱 Responsive design for all devices
+* 🗄️ MongoDB database integration
+* ✅ Input validation and error handling
+* 🎨 Clean and user-friendly interface
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* Tailwind CSS
+
+### Backend
+
+* Next.js API Routes
+
+### Database
+
+* MongoDB
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home Page](screenshots/home-page.png)
+
+### ✨ Create Short URL
+
+![Create URL](screenshots/create-url.png)
+
+### 🔗 Generated Short URL
+
+![Generated Short URL](screenshots/generated-short-url.png)
+
+---
+
+## ⚙️ Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/MimansaPatle/URL-Shortener.git
+```
+
+### Navigate to Project Directory
+
+```bash
+cd URL-Shortener
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Configure Environment Variables
+
+Create a `.env.local` file:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+```
+
+### Run the Application
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📂 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```text
+URL-Shortener/
+│
+├── screenshots/
+│   ├── home-page.png
+│   ├── create-url.png
+│   └── generated-short-url.png
+│
+├── app/
+├── components/
+├── public/
+├── lib/
+├── models/
+├── pages/
+├── README.md
+└── package.json
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Use Cases
 
-## Deploy on Vercel
+* Sharing long URLs efficiently
+* Creating memorable custom links
+* Managing links for projects and portfolios
+* Improving user experience with shorter URLs
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔮 Future Improvements
+
+* User Authentication
+* Analytics Dashboard
+* Click Tracking
+* QR Code Generation
+* Link Expiration Support
+* User Dashboard
+* Custom Domains
+
+---
+
+## 👨‍💻 Author
+
+**Mimansa Patle**
+
+* GitHub: https://github.com/MimansaPatle
+* LinkedIn: https://www.linkedin.com/in/mimansa-patle-b489a6309
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
